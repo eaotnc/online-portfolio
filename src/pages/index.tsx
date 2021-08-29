@@ -10,14 +10,7 @@ import { Config } from '../utils/Config';
 import { getAllPosts } from '../utils/Content';
 
 const Index = (props: IBlogGalleryProps) => (
-  <Main
-    meta={(
-      <Meta
-        title="Made with Next.js, TypeScript, ESLint, Prettier, PostCSS, Tailwind CSS"
-        description={Config.description}
-      />
-    )}
-  >
+  <Main meta={<Meta title="Thanatcha PortFolio" description="PortFolio" />}>
     <BlogGallery posts={props.posts} pagination={props.pagination} />
   </Main>
 );

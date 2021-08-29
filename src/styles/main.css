@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;500&display=swap');
 @tailwind base;
 
 a {
@@ -7,7 +8,10 @@ a {
 a:hover {
   @apply underline;
 }
-
+*{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+}
 @tailwind components;
 
 @tailwind utilities;
